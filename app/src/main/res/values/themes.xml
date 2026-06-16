@@ -2,4 +2,5 @@
 <resources>
 
     <style name="Theme.Pockit" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Prevents white flash before Compose renders -->
 </resources>

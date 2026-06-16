@@ -2,10 +2,17 @@ package com.example.pockit.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Background colors
+val DarkBackground = Color(0xFF0D0D0D)       // Near-black background
+val CardDark = Color(0xFF1A1A1A)             // Slightly lighter dark for cards
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Brand gradient colors (teal → green for the logo)
+val BrandTealStart = Color(0xFF3ECFB2)       // Teal (top of gradient)
+val BrandGreenEnd = Color(0xFF2DC653)        // Green (bottom of gradient)
+
+// Accent
+val BrandGreen = Color(0xFF2DC653)           // "Track. Budget. Grow." text color
+
+// Text
+val TextPrimary = Color(0xFFFFFFFF)          // White for "Pockit"
+val TextSecondary = Color(0xFFB0B0B0)        // Gray for subtitle
