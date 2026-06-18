@@ -35,7 +35,7 @@ fun LoginScreen() {
                 color = TextPrimary
             )
             Text(
-                text = "Login screen goes here",
+                text = "Login screen",
                 fontSize = 14.sp,
                 color = BrandGreen
             )
